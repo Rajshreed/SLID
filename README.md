@@ -5,13 +5,24 @@ The main Objective here is to explore the efficacy of different acoustic feature
 
 Dataset used - https://www.kaggle.com/toponowicz/spoken-language-identification
 
-Following are the scripts and python programs:
+Steps for Spoken Language Identification and corresponding python program or script:
+1) Volume Normalization - using shell script and Sox manipulation tool - Normalize.sh
+2) Acoustic Feature Extraction - For MFCC, MFCC+Delta and Raw - flac_mfcc.py/flac_mfcc_delta.py/flac_raw.py
+3) Training the model for mentioned features -
+MFCC-13, MFCC-40, MFCC-13+delta_deltadelta - 1D-CNN architecture [only_train_1d_cnn.py]
+MFCC-RAW - 1D-CNN architecture [train_raw_1d_cnn.py, my_first_data_generator_class.py]
+MFCC-13 - SVM (RBF based) [train_mfcc_svm.py]
+As the raw audio was processing heavy, keras fit_generator batch- multi processing was used.
 
+4) Evaluation of the trained model on test data
+Confusion matrix and classification report [evaluate_1d_cnn.py]
+------------------------------------------------------------------------
+Following are the various scripts and python programs listed:
 
 -------------------------------------------------------
 Saved-Models=> [all .mdl files are trained saved model]
 -------------------------------------------------------
-MFCC-13-1dCNNmodel.mdl	
+MFCC-13-1dCNNmodel.mdl
 MFCC-40-1dCNNmodel.mdl	
 MFCC-delta-1dCNNmodel.mdl	
 RAW-std-1dCNNmodel.mdl	
@@ -23,24 +34,18 @@ https://drive.google.com/file/d/1W2P-BgjkadtSi1xuetELjkBQemszCKJa/view?usp=shari
 ----------------------------------------------------------
 Python programs & scripts for extracting features, normalization and training the model 
 --------------------------------------------------------
+normalize.sh	
+
 flac_mfcc.py
 flac_mfcc_delta.py	
 flac_raw.py	
-normalize.sh	
+
 only_train_1d_cnn.py	
 train_raw_1d_cnn.py
 my_first_data_generator_class.py	
-evaluate_1d_cnn.py	
 train_mfcc_svm.py	
---------------------------------------------------------
 
-
---------------------------------------------------------
-CNN Model architecture using plot_model
---------------------------------------------------------
-model_plot_MFCC.png	
-model_plot_raw.png	
-model_plot_raw64x10.png	
+evaluate_1d_cnn.py	
 --------------------------------------------------------
 
 
@@ -52,4 +57,13 @@ output_MFCC_delta1.log
 output_raw22.log	
 output_svm_final.log	
 o_mfcc40.log	
+--------------------------------------------------------
+
+
+--------------------------------------------------------
+CNN Model architecture using plot_model
+--------------------------------------------------------
+model_plot_MFCC.png	
+model_plot_raw.png	
+model_plot_raw64x10.png	
 --------------------------------------------------------
