@@ -1,0 +1,28 @@
+(73075, 431, 13)
+(73075, 5603)
+..........................*.............*
+optimization finished, #iter = 39008
+obj = -10224.193437, rho = 0.583559
+nSV = 23272, nBSV = 10792
+...........................*...........*.*
+optimization finished, #iter = 38374
+obj = -10521.666704, rho = -0.352317
+nSV = 23469, nBSV = 11190
+.........................*...........*
+optimization finished, #iter = 36393
+obj = -9638.258038, rho = -1.564060
+nSV = 22078, nBSV = 10146
+Total nSV = 41759
+[LibSVM]Training Accuracy= 0.914750957854
+[[158  17   5]
+ [ 18 145  17]
+ [ 17   8 155]]
+             precision    recall  f1-score   support
+
+         de       0.82      0.88      0.85       180
+         en       0.85      0.81      0.83       180
+         es       0.88      0.86      0.87       180
+
+avg / total       0.85      0.85      0.85       540
+
+SVM model saved
