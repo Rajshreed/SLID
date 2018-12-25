@@ -22,11 +22,11 @@ Following are the various scripts and python programs listed:
 -------------------------------------------------------
 Saved-Models=> [all .mdl files are trained saved model]
 -------------------------------------------------------
-MFCC-13-1dCNNmodel.mdl
-MFCC-40-1dCNNmodel.mdl	
-MFCC-delta-1dCNNmodel.mdl	
-RAW-std-1dCNNmodel.mdl	
-https://drive.google.com/file/d/1W2P-BgjkadtSi1xuetELjkBQemszCKJa/view?usp=sharing (SVM saved model being too large is stored on google drive)
+1) MFCC-13-1dCNNmodel.mdl
+2) MFCC-40-1dCNNmodel.mdl	
+3) MFCC-delta-1dCNNmodel.mdl	
+4) RAW-std-1dCNNmodel.mdl	
+5) https://drive.google.com/file/d/1W2P-BgjkadtSi1xuetELjkBQemszCKJa/view?usp=sharing (SVM saved model being too large is stored on google drive)
 
 ----------------------------------------------------------
 
@@ -34,36 +34,36 @@ https://drive.google.com/file/d/1W2P-BgjkadtSi1xuetELjkBQemszCKJa/view?usp=shari
 ----------------------------------------------------------
 Python programs & scripts for extracting features, normalization and training the model 
 --------------------------------------------------------
-normalize.sh	
+1) normalize.sh	
 
-flac_mfcc.py
-flac_mfcc_delta.py	
-flac_raw.py	
+2) flac_mfcc.py
+3) flac_mfcc_delta.py	
+4) flac_raw.py	
 
-only_train_1d_cnn.py	
-train_raw_1d_cnn.py
-my_first_data_generator_class.py	
-train_mfcc_svm.py	
+5) only_train_1d_cnn.py	
+6) train_raw_1d_cnn.py
+7) my_first_data_generator_class.py	
+8) train_mfcc_svm.py	
 
-evaluate_1d_cnn.py	
+9) evaluate_1d_cnn.py	
 --------------------------------------------------------
 
 
 --------------------------------------------------------
 Log files showing each Epoch and the training accuracy and model summary etc.
 --------------------------------------------------------
-output_13_mfcc.log	
-output_MFCC_delta1.log	
-output_raw22.log	
-output_svm_final.log	
-o_mfcc40.log	
+1) output_13_mfcc.log	
+2) output_MFCC_delta1.log	
+3) output_raw22.log	
+4) output_svm_final.log	
+5) o_mfcc40.log	
 --------------------------------------------------------
 
 
 --------------------------------------------------------
 CNN Model architecture using plot_model
 --------------------------------------------------------
-model_plot_MFCC.png	
-model_plot_raw.png	
-model_plot_raw64x10.png	
+1) model_plot_MFCC.png	
+2) model_plot_raw.png	
+3) model_plot_raw64x10.png	
 --------------------------------------------------------
