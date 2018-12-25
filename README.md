@@ -72,31 +72,37 @@ Summarization of the evaluation results -
 
 
 1) MFCC - 13 coefficients with Neural Network (1d conv)
-Training Accuracy     - 99.32%
-Testing Data Accuracy - 97.22%
+
+Training Accuracy     - 99.32% , 
+Testing Data Accuracy - 97.22% , 
 F1 Score              - 0.97
 
 2) MFCC - 40 coefficients with Neural Network (1d conv)
-Training Accuracy     - 99.75%
-Testing Data Accuracy - 86.11%
+
+Training Accuracy     - 99.75% , 
+Testing Data Accuracy - 86.11% , 
 F1 Score              - 0.86
 
 3) MFCC - 13 coefficients + Delta + Delta-Delta with Neural Network (1d conv)
-Training Accuracy     - 99.73%
-Testing Data Accuracy - 97.04%
+
+Training Accuracy     - 99.73% , 
+Testing Data Accuracy - 97.04% , 
 F1 Score              - 0.97
 
 4) MFCC - 13 coefficients with Long Short Term Memory 
-Training Accuracy     - 96.57%
-Testing Data Accuracy - 85.61%
+
+Training Accuracy     - 96.57% , 
+Testing Data Accuracy - 85.61% , 
 F1 Score              - 0.86
 
 5) MFCC - 13 coefficients with Support Vector Machine(RBF)
-Training Accuracy     - 91.48%
-Testing Data Accuracy - 85.75%
+
+Training Accuracy     - 91.48% , 
+Testing Data Accuracy - 85.75% , 
 F1 Score              - 0.85
 
 6) Spectrogram with 2d Convolutional Neural Network
-Training Accuracy     - 99.61%
-Testing Data Accuracy - 74.07%
-F1 Score              - 0.74
+
+Training Accuracy     - 99.61% , 
+Testing Data Accuracy - 74.07% , 
+F1 Score              - 0.74 
