@@ -13,9 +13,13 @@ MFCC-13, MFCC-40, MFCC-13+delta_deltadelta - 1D-CNN architecture [only_train_1d_
 MFCC-RAW - 1D-CNN architecture [train_raw_1d_cnn.py, my_first_data_generator_class.py]
 MFCC-13 - SVM (RBF based) [train_mfcc_svm.py]
 As the raw audio was processing heavy, keras fit_generator batch- multi processing was used.
-
 4) Evaluation of the trained model on test data
 Confusion matrix and classification report [evaluate_1d_cnn.py]
+
+Instructions on how to run each of these python scripts are within the files, All files have parameters to be set in the begining of the file (just after import statements). Once the corresponding parameters are set. We just run the python scriptname.py. We used generic command - 
+
+Nohup python -u pythonscriptname.py > output.log &
+
 ------------------------------------------------------------------------
 Following are the various scripts and python programs listed:
 
