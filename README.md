@@ -20,6 +20,10 @@ Instructions on how to run each of these python scripts are within the files, Al
 
 Nohup python -u pythonscriptname.py > output.log &
 
+Directory structure of the project was as follows: 
+homedir/LangClassification         -> Project Dir  [contained all shell scripts, python scripts, log, saved model files]
+homedir/LangClassification/Dataset -> Dataset Dir  [contained original dataset, features extracted(.npy files)]
+
 ------------------------------------------------------------------------
 Following are the various scripts and python programs listed:
 
