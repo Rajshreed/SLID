@@ -27,16 +27,16 @@ homedir/LangClassification/Dataset -> Dataset Dir  [contained original dataset, 
 ---------------------------------------------------------------------
 Project Requirements - 
 
-CUDA version - 9.0.176
-joblib       - 0.11
-Keras        - 2.1.2
-librosa      - 0.5.1
-numpy        - 1.13.3
-scikit-learn - 0.19.1
-scipy        - 1.0.0
-sox          - 1.3.7
-tensoflow    - 1.4.0
-tqdm         - 4.28.1
+CUDA version - 9.0.176 , 
+joblib       - 0.11 , 
+Keras        - 2.1.2 , 
+librosa      - 0.5.1 , 
+numpy        - 1.13.3 , 
+scikit-learn - 0.19.1 , 
+scipy        - 1.0.0 , 
+sox          - 1.3.7 , 
+tensoflow    - 1.4.0 , 
+tqdm         - 4.28.1 
 
 ------------------------------------------------------------------------
 Following are the various scripts and python programs listed:
